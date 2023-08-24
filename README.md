@@ -11,7 +11,8 @@ This project aims to simplify the design and usage of basic UI elements while pr
      - `role` (e.g., button, video, img, etc.)
      - `style` (CSS-like styling)
      - `content` (other components or content)
-   - **Example Usage:** ```jsx
+   - **Example Usage:**
+     ```jsx
      <Box role="button" style={{ backgroundColor: 'blue' }}>Click Me</Box>
      ```
 
@@ -20,7 +21,8 @@ This project aims to simplify the design and usage of basic UI elements while pr
    - **Properties:**
      - `text` (the text to be displayed)
      - `style` (styling)
-   - **Example Usage:** ```jsx
+   - **Example Usage:**
+     ```jsx
      <Text style={{ fontSize: '16px' }}>Hello, World!</Text>
      ```
 
@@ -29,7 +31,8 @@ This project aims to simplify the design and usage of basic UI elements while pr
    - **Properties:**
      - `source` (the source of the embedded content)
      - `style` (styling)
-   - **Example Usage:** ```jsx
+   - **Example Usage:**
+     ```jsx
      <Embed source="https://www.youtube.com/embed/VIDEO_ID" style={{ width: '100%', height: '300px' }} />
      ```
 
